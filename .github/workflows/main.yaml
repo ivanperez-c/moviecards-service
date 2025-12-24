@@ -57,6 +57,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'moviecards-service-perez'
-          slot-name: 'Production'
           package: '*.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C143557AAEEE406A902B6795A7F8B34C }}
